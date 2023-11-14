@@ -1,3 +1,42 @@
+# beeps-take-home-interview
+
+## fun with streams (websockets)
+
+create a web app that:
+
+	-uses any framework or libraries you want -- prefer next.js, remix, or any-react related framework
+	-consumes and parses the json events from the websocket url
+	-display them in a time-descending feed on the right side (main section)
+	-counts the total events & event rate (per minute) on the left (sidebar)
+	-shows off your creativity from a UX perspective
+	-demonstrates high quality code, attention to detail, and design
+	-websocket url is: ws://beeps.gg/stream
+
+### sample event
+
+	{
+	    "id": "fZbEBogdj",
+	    "timestamp": 1699435059000,
+	    "user": {
+	        "id": 13184,
+	        "image_url": "http://loremflickr.com/209/207/",
+	        "name": "Kevin Spacey",
+	        "username": "zemlak5568"
+	    },
+	    "message": "Where me might that elsewhere on this mushy yourselves chest through whose.",
+	    "tags": [
+	        "shabby chic",
+	        "meggings",
+	        "waistcoat",
+	        "dreamcatcher",
+	        "flexitarian",
+	        "roof"
+	    ]
+	}
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,39 +107,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# beeps-take-home-interview
-
-## fun with streams (websockets)
-
-create a web app that:
-
-	-uses any framework or libraries you want -- prefer next.js, remix, or any-react related framework
-	-consumes and parses the json events from the websocket url
-	-display them in a time-descending feed on the right side (main section)
-	-counts the total events & event rate (per minute) on the left (sidebar)
-	-shows off your creativity from a UX perspective
-	-demonstrates high quality code, attention to detail, and design
-	-websocket url is: ws://beeps.gg/stream
-
-### sample event
-
-	{
-	    "id": "fZbEBogdj",
-	    "timestamp": 1699435059000,
-	    "user": {
-	        "id": 13184,
-	        "image_url": "http://loremflickr.com/209/207/",
-	        "name": "Kevin Spacey",
-	        "username": "zemlak5568"
-	    },
-	    "message": "Where me might that elsewhere on this mushy yourselves chest through whose.",
-	    "tags": [
-	        "shabby chic",
-	        "meggings",
-	        "waistcoat",
-	        "dreamcatcher",
-	        "flexitarian",
-	        "roof"
-	    ]
-	}
