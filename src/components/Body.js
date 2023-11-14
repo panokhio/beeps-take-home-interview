@@ -33,7 +33,7 @@ const Body = (data, loading, start, end, handleStart, handleClose, websocket) =>
                             {(minutesElapsed > 1) ? (data.data.length / minutesElapsed).toFixed(3)
                         : (
                             <div className="loading-container">
-                                <img className="loading-image small" src={require('./../purple-loading-svg.gif')}/>
+                                <img className="loading-image small" src={require('./../images/purple-loading-svg.gif')}/>
                             </div>
                         )}
                         </div>
@@ -43,7 +43,7 @@ const Body = (data, loading, start, end, handleStart, handleClose, websocket) =>
             <div className={data.loading ? "right-side loading" : "right-side"}>
                 {!data.loading ? Object.values(data.data).reverse().map((item, i) => <Card key={i} data={item }/>) : (
                     <div className="loading-container">
-                        <img className="loading-image" src={require('./../purple-loading-svg.gif')}/>
+                        <img className="loading-image" src={require('./../images/purple-loading-svg.gif')}/>
                     </div>
                 )}
             </div>
