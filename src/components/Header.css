@@ -1,0 +1,12 @@
+.header-container{
+	background-color: #8c75bd;
+	height: 52px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	font-weight: 500;
+	font-size: 26px;
+	border-bottom: solid 3px black;
+}
