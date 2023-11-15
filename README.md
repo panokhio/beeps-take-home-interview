@@ -4,13 +4,13 @@
 
 create a web app that:
 
-	-uses any framework or libraries you want -- prefer next.js, remix, or any-react related framework
-	-consumes and parses the json events from the websocket url
-	-display them in a time-descending feed on the right side (main section)
-	-counts the total events & event rate (per minute) on the left (sidebar)
-	-shows off your creativity from a UX perspective
-	-demonstrates high quality code, attention to detail, and design
-	-websocket url is: ws://beeps.gg/stream
+uses any framework or libraries you want -- prefer next.js, remix, or any-react related framework\
+consumes and parses the json events from the websocket url\
+display them in a time-descending feed on the right side (main section)\
+counts the total events & event rate (per minute) on the left (sidebar)\
+shows off your creativity from a UX perspective\
+demonstrates high quality code, attention to detail, and design\
+websocket url is: ws://beeps.gg/stream\
 
 ### sample event
 
