@@ -10,7 +10,7 @@ create a web app that:
 • counts the total events & event rate (per minute) on the left (sidebar)\
 • shows off your creativity from a UX perspective\
 • demonstrates high quality code, attention to detail, and design\
-• websocket url is: ws://beeps.gg/stream\
+• websocket url is: ws://beeps.gg/stream
 
 ### sample event
 
