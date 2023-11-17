@@ -2,7 +2,7 @@
 
 ## fun with streams (websockets)
 
-create a web app that:
+### create a web app that:
 
 • uses any framework or libraries you want -- prefer next.js, remix, or any-react related framework\
 • consumes and parses the json events from the websocket url\
